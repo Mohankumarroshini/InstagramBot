@@ -4,31 +4,34 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+ʜᴇʏ✨ {}
 
-Welcome to {}
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}
 
-I can download profile pictures, videos, images and reels from instagram along with post caption.
-You can also authorize me to download private posts.
+ɪ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇs ғʀᴏᴍ ɪɴsᴛᴀɢʀᴀᴍ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴘᴏsᴛ ᴄᴀᴘᴛɪᴏɴs.
 
-Use below buttons to learn more.
+ʏᴏᴜs ᴄᴀɴ ᴀᴜᴛʜᴏʀɪsᴇ ᴍᴇ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛs 🧚.
 
-By @StarkBots
+ɪ ᴀᴍ ᴏɴʟʏ ᴘʀᴏғɪʟᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ sᴏ ᴅᴏɴ'ᴛ ᴜʀʟ ʟɪɴᴋs ᴀɴᴅ sᴘᴀᴍ ᴍᴇ.
+
+ᴜsᴇ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ 🌟.
+
+ʙʏ @TamilBots [🤖](https://telegra.ph/file/57873ee2279555866f4c9.jpg)
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="ʀᴇᴛᴜʀɴ ᴛᴏ ʜᴏᴍᴇ🌟", callback_data="home")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛs🤖", url="https://t.me/StarkBots/7")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ❔", callback_data="help"),
+            InlineKeyboardButton("🎪ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs🧚", url="https://t.me/StarkBots")],
     ]
 
     # Help Message
@@ -50,15 +53,19 @@ Use /auth to authorize and /unauth to unauthorize.
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ** 
 
-A telegram bot to download instagram content by @StarkBots
+ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ᴄᴏɴᴛᴇɴᴛ ʙʏ @TamilBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/InstagramBot)
+ɴᴀᴍᴇ : [ɪɴsᴛᴀ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ](https://t.me/instadownloadprobot)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](www.python.org)
 
-Developer : @StarkProgrammer
+ᴅᴇᴠʟᴏᴘᴇʀ : [.♪.எம்.எஸ்.டி.♪.](https://t.me/my_dear_lightbright)
+
+sᴇʀᴠᴇʀ : [ʜᴇʀᴏᴋᴜ](https://heroku.com/)
+
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴛᴀᴍɪʟ ʙᴏᴛs](https://t.me/tamilbots)
     """
