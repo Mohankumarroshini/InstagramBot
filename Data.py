@@ -26,12 +26,12 @@ class Data:
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛs🤖", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛs🤖", url="https://t.me/tamilbots/84")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ❔", callback_data="help"),
             InlineKeyboardButton("🎪ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs🧚", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs🧚", url="https://t.me/tamilbots")],
     ]
 
     # Help Message
