@@ -36,19 +36,19 @@ class Data:
 
     # Help Message
     HELP = """
-1) **Images, Videos and Reels**
-Send the link here to get the post contents including caption.
+1) **ɪᴀᴍɢᴇ,ᴘᴏsᴛ**
+sᴇɴᴅ ᴛʜᴇ ʟɪɴᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴘᴏsᴛ ᴄᴏɴᴛɴᴇᴛ ɪɴᴄʟᴜᴅɪɴɢ ᴄᴀᴘᴛɪᴏɴs.
 
-2) **Profile Pictures**
-Use the command `/profile_pic` or `/dp` along with instagram username to get its profile picture.
-Example : `/dp StarkProgrammer`
+2) **ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇ**
+ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ `/profile_pic` ᴏʀ `/dp` ᴀʟᴏɴɢ ᴡɪᴛʜ ɪɴsᴛᴀɢʀᴀᴍ ᴜsᴇʀɴᴀᴍᴇ ᴛᴏ ɢᴇᴛ ɪᴛs ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇ.
+ᴇxᴀᴍᴘʟᴇ: `/dp ᴍʏ_ᴅᴇᴀʀ_ʟɪɢʜᴛʙʀɪɢʜᴛ`
 
-3) **Private Posts**
-Authorize the bot to download private posts. Use /auth
+3) **ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛ**
+ᴀᴜᴛʜᴏʀɪᴢᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀɪᴠᴀᴛᴇ ᴘᴏsᴛs. ᴜsᴇ /auth
 
-**Note** : Stories and IGTV are not supported.
+**ɴᴏᴛᴇ** : ʀᴇᴇʟs,sᴛᴏʀɪᴇs ᴀɴᴅ ɪɢᴛᴠ ᴀʀᴇ ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ.
 
-Use /auth to authorize and /unauth to unauthorize.
+ᴜsᴇ /auth ᴛᴏ ᴀʏᴛʜᴏʀɪᴢᴇ ᴀɴᴅ /unauth ᴛᴏ ᴜɴᴀᴜᴛʜᴏʀɪᴢᴇ.
 """
 
     # About Message
